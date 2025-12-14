@@ -1,0 +1,32 @@
+.tracker {
+  padding: clamp(1.5rem, 3vw, 3rem);
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.tracker__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.tracker__card {
+  border: 1px solid var(--cor-borda);
+  border-radius: 12px;
+  padding: 1rem;
+  background: var(--cor-hover);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.tracker__card h3 {
+  color: var(--cor-laranja);
+  margin-bottom: 0.5rem;
+}
+
+.tracker__card p {
+  color: var(--cor-texto);
+  line-height: 1.4;
+}
