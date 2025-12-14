@@ -143,4 +143,4 @@ Após criar o .env, reinicie o Vite para que ele carregue as variáveis:
 
 O arquivo config.js já está configurado para ler essas variáveis automaticamente usando import.meta.env.VITE_*.
 
-⚠️ Importante: O arquivo .env já está no .gitignore, então suas credenciais não serão commitadas no Git.
+⚠️ Importante: O arquivo .env já está no .gitignore, então suas credenciais não serão commitadas no Git.    
